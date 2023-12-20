@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title을 입력 -->
+    <title>Document</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GooGle Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="topbox">
+            <div class="logobox">
+                ILHYANG FLOWER
+            </div>
+            <div class="buttonbox">
+                Profile
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+
+        <form class="classfy">
+            <div class="item">
+                <label for="">꽃 형태</label>
+                <select name="type">
+                    <option value>-----</option>
+                    <option value="bunch">꽃 다발</option>
+                    <option value="basket">꽃 바구니</option>
+                    <option value="pot">식물</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="">선호하는 꽃 색상</label>
+                <select name="flowercolor">
+                    <option value>-----</option>
+                    <option value="pinkpurple">핑크보라톤</option>
+                    <option value="whitepurple">화이트보라톤</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="">가격대를 고르세요</label>
+                <select name="price">
+                    <option value>-----</option>
+                    <option value="30000">30,000원대</option>
+                    <option value="50000">50,000원대</option>
+                    <option value="80000">80,000원대</option>
+                    <option value="100000">100,000원대</option>
+                </select>
+            </div>
+            <div class="item submit">
+                <button>찾아보기</button>
+            </div>
+
+
+
+        </form>
+
+        <div class="countResults">
+            당신과 같이 이쁜 꽃 <b id="count">#</b>종류를 찾았습니다.
+        </div>
+
+        <!-- =========================================================== -->
+        <!-- =========================================================== -->
+        <!-- =======================================================list -->
+        <div id="list">
+            <!-- <div class="item">
+                <img src="image/프리지아_01.jpg">
+                <div class="title">Name Product</div>
+                <div class="price"></div>
+            </div>
+            -->
+        </div>
+
+        <!-- ==================================================Footer -->
+        <div id="footer" class="footer">
+            <div class="ilhyanginfo">
+                <strong>찾아오시는 길</strong><br><br>
+                <strong>-차를 이용하시는 경우-</strong><br>
+                네비에 '돈암삼부' 로 검색하여 오시면 됩니다. 정문으로 들오셔야 합니다.
+                <br>
+                <strong>-걸어오시는 경우-</strong><br>
+                네비에 '돈암삼부' 로 검색하여 오시면 됩니다. 102동에 있습니다.
+            </div>
+            <div class="ilhyangend">
+            <img src="#">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ===================================================POPUP_WINDOW -->
+    
+    <div id="previewcon" class="preview_container">
+        <!-- <div class="previewbox active" data-target='f_01'>
+            <div class="preview">
+                <img src="image/#.jpg">
+                <div class="closebutton">close</div>
+            </div>
+            <br>
+            <h3>ABCDEFG</h3>
+            <div class="flowername"></div>
+            <div class="description"></div>
+        </div> -->
+    </div>
+
+
+    <!-- ==============================================Special List -->
+    <div id="specialistcontainer" class="fadeout">
+        <div class="specialistbox">
+            <div class="buttonbox01">
+                <div id="closebutton01">close</div>
+            </div>
+            <div class="specialist">
+                <div class="specialist01">
+                    1
+                </div>
+                </div>     
+        </div>
+    </div>
+   
+
+
+    <!-- Javascript link -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

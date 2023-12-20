@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.container,
+.topbox,
+.logobox,
+.buttonbox {
+    border: 0px solid black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ======================================================================TOPBOX */
+.topbox {
+    width: 100%;
+    height: 60px;
+    background-color: olivedrab;
+    display: flex;
+    position: relative;
+}
+
+.logobox {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;;
+    font-size: 35px;
+    top: 20%;
+    left: 10px;
+}
+
+.buttonbox {
+    position: absolute;
+    font-size: 18px;;
+    width: 65px;
+    height: 20px;
+    right: 5px;
+    bottom: 5px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    background-color: darkgray;
+    color: black;
+}
+
+/* =================================================================FROM BOX */
+.classfy {
+    display: grid;
+    margin-top: 50px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 2%;
+    row-gap: 5px;
+    grid-template-rows: 30px;
+}
+.classfy .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classfy .item select,
+.classfy .item button {
+    width: 100%;
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+    border-left: 1px solid #ddd;
+    outline: none;
+}
+
+.classfy .item label {
+    display: block;
+    width: 160px;
+    padding: 0 1px;
+}
+
+.classfy .item button {
+    background-color: #FFF100;
+    color: black;
+    cursor: pointer;
+}
+
+option {
+    font-family: 'Caveat', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.countResults{
+    width: 100%;
+    height: 40px;
+    background-color: #FFF100;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+/* =========================================================LIST BOX */
+#list .item {
+    border: 0px solid black;
+}
+
+#list {
+    display: grid;
+    padding-left: 5px;
+    padding-right : 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(400px, 10);
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+#list .item {
+    background-color: #FCD8F9;
+}
+
+#list .item img {
+    width: 100%;
+    height: 250px;
+    padding: 3px;
+    object-fit: cover;
+}
+
+#list .item .title {
+    text-align: center;
+    font-weight: 600;
+}
+
+#list .item .price {
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+
+/* ==========================================================FOOTER */
+.footer,
+.ilhyanginfo {
+    border: 0px solid red;
+}
+
+
+.footer {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top: 80px;
+    background-color: lightgreen;
+}
+
+.ilhyanginfo {
+    position: absolute;
+    width: 65%;
+    height: 150px;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+}
