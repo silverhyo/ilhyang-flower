@@ -140,12 +140,17 @@ classfy.addEventListener('submit', function(event) {
             if(!item.price.includes(valueClassfy.price.value)){
                 return false;
             }
-        }
-        
-
-       
+        }     
         return true;
-        
     })
     showProduct(productFilter);
 })
+// ============================================================POPUP WINDOW
+
+makePopupWindow();
+
+function makePopupWindow() {
+    let previewContainer = $('previewContaienr');
+    
+
+}

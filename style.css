@@ -175,3 +175,65 @@ option {
     left: 10px;
     font-size: 14px;
 }
+
+/* ====================================================POPUP WINDOW */
+#previewContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#previewContainer .previewbox {
+    width: 320px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#previewContainer .previewbox .preview {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    object-fit: cover;
+    position: relative;
+
+}
+#previewContainer .previewbox .preview img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+#previewContainer .previewbox .preview .closebutton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: olivedrab;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 0 0 0 20px;
+}
+
+#previewContainer .previewbox h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#previewContainer .previewbox .flowersummary {
+    text-align: center;
+    font-size: 13px;;
+}
+
+#previewContainer .previewbox .description {
+    padding-left: 10px;
+    padding-rignt: 10px;
+}
