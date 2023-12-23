@@ -8,14 +8,14 @@ let flowerListItem = [
     {
         id: 1,
         dataname: 'f_01',
-        name: '프리지아',
+        name: '01_핑크보라톤의 꽃 다발',
         price: '50000',
-        image: 'image/프리지아_01.jpg',
+        image: 'image/01_꽃다발_pinkpurple_50000_fw.jpg',
         nature: {
             type: ['bunch'],
             color: ['pinkpurple'],
             size: ['20cm'],
-            season: ['spring', 'summer', 'fall', 'winter'],
+            season: ['fall', 'winter'],
             description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
             description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
         }
@@ -23,14 +23,14 @@ let flowerListItem = [
     {
         id: 2,
         dataname: 'f_02',
-        name: '프리지아',
-        price: '30000',
-        image: 'image/프리지아_02.jpg',
+        name: '02_핑크보라톤의 꽃 다발',
+        price: '80000',
+        image: 'image/02_꽃다발_pinkpurple_80000_fw.jpg',
         nature: {
             type: ['bunch'],
             color: ['pinkpurple'],
             size: ['20cm'],
-            season: ['spring', 'summer', 'fall', 'winter'],
+            season: ['fall', 'winter'],
             description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
             description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
         }
@@ -38,14 +38,14 @@ let flowerListItem = [
     {
         id: 3,
         dataname: 'f_03',
-        name: '히야신스',
-        price: '30000',
-        image: 'image/프리지아_03.jpg',
+        name: '03_핑크화이트톤의 화려한 꽃 바구니',
+        price: '100000',
+        image: 'image/03_꽃바구니_pinkwhite_100000_fw.jpg',
         nature: {
             type: ['basket'],
             color: ['pinkpurple'],
             size: ['35cm'],
-            season: ['spring', 'summer', 'fall', 'winter'],
+            season: ['fall', 'winter'],
             description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
             description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
         }
@@ -53,14 +53,14 @@ let flowerListItem = [
     {
         id: 4,
         dataname: 'f_04',
-        name: '히야신스',
-        price: '80000',
-        image: 'image/프리지아_04.jpg',
+        name: '04_핑크화이트톤의 아기자기 꽃 바구니',
+        price: '70000',
+        image: 'image/04_꽃바구니_pinkwhtie_70000_sf.jpg',
         nature: {
-            type: ['bunch'],
+            type: ['basket'],
             color: ['pinkpurple'],
             size: ['35cm'],
-            season: ['spring', 'summer', 'fall', 'winter'],
+            season: ['summer', 'fall'],
             description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
             description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
         }
@@ -68,17 +68,93 @@ let flowerListItem = [
     {
         id: 5,
         dataname: 'f_05',
-        name: '장미',
-        price: '50000',
-        image: 'image/프리지아_05.jpg',
+        name: '05_핑크보라톤의 꽃 다발',
+        price: '35000',
+        image: 'image/05_꽃다발_pinkpurple_35000_fw.jpg',
         nature: {
             type: ['bunch'],
             color: ['pinkpurple', 'whitepurple'],
-            size: ['35cm'],
-            season: ['spring', 'summer', 'fall', 'winter'],
+            size: ['25cm'],
+            season: ['fall', 'winter'],
             description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
             description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
         }
+    },
+    {
+        id: 6,
+        dataname: 'f_06',
+        name: '06_핑크보라톤의 꽃 바구니',
+        price: '70000',
+        image: 'image/06_꽃바구니_pinkpurple_70000_sf.jpg',
+        nature: {
+            type: ['basket'],
+            color: ['pinkpurple', 'whitepurple'],
+            size: ['25cm'],
+            season: ['summer', 'fall'],
+            description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
+            description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
+        }
+    },
+    {
+        id: 7,
+        dataname: 'f_07',
+        name: '07_핑크보라톤의 꽃 다발',
+        price: '35000',
+        image: 'image/07_꽃다발_pinkwhite_35000_sf.jpg',
+        nature: {
+            type: ['bunch'],
+            color: ['pinkpurple', 'whitepurple'],
+            size: ['25cm'],
+            season: ['fall', 'winter'],
+            description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
+            description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
+        }
+    },
+    {
+        id: 8,
+        dataname: 'f_08',
+        name: '08_핑크보라톤의 꽃 다발',
+        price: '35000',
+        image: 'image/08_꽃다발_35000_pink_ss.jpg',
+        nature: {
+            type: ['bunch'],
+            color: ['pink'],
+            size: ['25cm'],
+            season: ['fall', 'winter'],
+            description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
+            description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
+        }
+    },
+    {
+        id: 9,
+        dataname: 'f_09',
+        name: '09_핑크보라톤의 꽃 다발',
+        price: '35000',
+        image: 'image/09_꽃다발_pinkpurple_35000_sf.jpg',
+        nature: {
+            type: ['bunch'],
+            color: ['pinkpurple', 'whitepurple'],
+            size: ['25cm'],
+            season: ['summer', 'fall'],
+            description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
+            description02: '크기는 대략 20cm 되는 꽃 다발 입니다.'
+        }
+    },
+    {
+        id: 10,
+        dataname: 'f_10',
+        name: '10_핑크보라톤의 꽃 다발',
+        price: '120000',
+        image: 'image/10_꽃바구니_pinkpurple_120000_sf.jpg',
+        nature: {
+            type: ['basket'],
+            color: ['pinkpurple', 'whitepurple'],
+            size: ['25cm'],
+            season: ['summer', 'pall'],
+            description01: '핑크보라톤의 이쁘고 아기자기한 꽃 다발 입니다.',
+            description02: '크기는 대략 20cm 되는 꽃 다발 입니다.',
+            description03: '이쁜 왕 꽃 바구니',
+         }
     },
 ]
 

@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 </head>
 <body>
@@ -47,8 +48,10 @@
                 <label for="">선호하는 꽃 색상</label>
                 <select name="flowercolor">
                     <option value>-----</option>
+                    <option value="pink">핑크톤</option>
                     <option value="pinkpurple">핑크보라톤</option>
                     <option value="whitepurple">화이트보라톤</option>
+                    <option value="whitepink">화이트핑크</option>
                 </select>
             </div>
             <div class="item">
@@ -62,7 +65,7 @@
                 </select>
             </div>
             <div class="item submit">
-                <button>찾아보기</button>
+                <button style="font-size: 18px; font-family: 'Caveat', cursive; font-family: 'Nanum Pen Script', cursive;">찾아보기</button>
             </div>
 
 
@@ -71,6 +74,9 @@
 
         <div class="countResults">
             당신과 같이 이쁜 꽃 <b id="count">#</b>종류를 찾았습니다.
+            <span class="material-symbols-outlined">
+                local_florist
+            </span>
         </div>
 
         <!-- =========================================================== -->
@@ -88,15 +94,15 @@
         <!-- ==================================================Footer -->
         <div id="footer" class="footer">
             <div class="ilhyanginfo">
-                <strong>찾아오시는 길</strong><br><br>
-                <strong>-차를 이용하시는 경우-</strong><br>
+                <h3>찾아오시는 길</h3><br><br>
+                <strong>차를 이용하시는 경우</strong><br>
                 네비에 '돈암삼부' 로 검색하여 오시면 됩니다. 정문으로 들오셔야 합니다.
-                <br>
-                <strong>-걸어오시는 경우-</strong><br>
+                <br><br>
+                <strong>걸어오시는 경우</strong><br>
                 네비에 '돈암삼부' 로 검색하여 오시면 됩니다. 102동에 있습니다.
             </div>
             <div class="ilhyangend">
-            <img src="#">
+            <!-- <img src="#"> -->
             </div>
         </div>
 
@@ -114,7 +120,7 @@
                 <div class="closebutton">close</div>
             </div>
             <br>
-            <h2>ABCDEFG</h2>
+            <h2>꽃 이름</h2>
             <p class="flowersummary">이쁜 꽃 입니다</p>
             <br>
             <p class="description">봄 철에 향긋한 향기를 뿜어내는 프리지아. '너의 새로운 시작을 축하해' 라는 꽃말을 가지고 있어요!</p>
@@ -139,6 +145,7 @@
 
 
     <!-- Javascript link -->
+    <script src="https://kit.fontawesome.com/ddd11595d2.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     
 </body>
